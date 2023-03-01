@@ -1,0 +1,15 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: petshop-uaa
+  datasource:
+    url: jdbc:mysql://localhost:3306/petshop_oauth?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.1.30.111:8848

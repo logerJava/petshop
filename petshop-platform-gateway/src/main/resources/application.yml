@@ -1,0 +1,12 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: petshop-gateway
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.1.30.111:8848
